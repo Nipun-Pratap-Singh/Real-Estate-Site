@@ -1,0 +1,30 @@
+.f-container{
+    justify-content: space-between;
+}
+
+/* .f-left{
+    gap: 1rem;
+} */
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-menu>span:hover{
+    cursor: pointer;
+}
+
+@media (max-Width:740px) {
+    .f-container{
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+    .f-container>div{
+        align-items: center;
+    }
+    .f-menu{
+        gap: 1rem;
+    }
+}
